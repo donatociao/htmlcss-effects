@@ -49,3 +49,22 @@
 .ex-6-img:hover {
   filter: grayscale(1);
 }
+
+.ex-7-img {
+  transition: 5s;
+}
+
+.ex-7-img:hover {
+  filter: grayscale(1);
+  filter: sepia(0.8);
+}
+
+.ex-8-img {
+  transition: 2s;
+}
+
+.ex-8-img:hover {
+  filter: grayscale(1);
+  filter: sepia(0.8);
+  border-radius: 30px;
+}
