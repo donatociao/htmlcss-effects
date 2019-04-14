@@ -68,3 +68,23 @@
   filter: sepia(0.8);
   border-radius: 30px;
 }
+
+.ex-9-img {
+  transition: 2s;
+}
+
+.ex-9-img:hover {
+  filter: grayscale(1);
+  filter: sepia(0.8);
+  border-radius: 30px;
+  transform: scale(1.4);
+}
+
+.ex-10-icon {
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {transform: rotate(0);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
